@@ -124,6 +124,14 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--link); outline-of
 .lang-about { margin: 1.1rem 0 0; font-size: .9rem; }
 .lang-about a { color: var(--muted); }
 
+/* ---------- Motto ---------- */
+.motto { max-width: 34rem; margin: 3.4rem auto 0; padding: 0 1.25rem; text-align: center; }
+.motto blockquote { margin: 0; }
+.motto p { margin: 0; font-style: italic; font-size: clamp(1.3rem, 1.1rem + 1vw, 1.65rem); line-height: 1.35; text-wrap: balance; }
+.motto .motto-de { margin-top: .7rem; font-size: 1rem; color: var(--muted); }
+.motto figcaption { margin-top: 1rem; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.motto cite { font-style: italic; text-transform: none; letter-spacing: .02em; font-size: 1.15em; }
+
 /* ---------- Lesen ---------- */
 .reading { padding: 0 1.25rem; }
 .reading article { max-width: var(--measure); margin: 0 auto; }
